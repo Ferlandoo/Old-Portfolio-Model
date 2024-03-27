@@ -20,6 +20,7 @@ export default function Image({ src, height, width, size, alt, opacity }) {
           width: "100%",
           height: "100%",
           objectFit: "cover",
+          borderRadius: "15px",
           opacity: opacity ? opacity : "1",
         }}
         onLoad={(e) => {

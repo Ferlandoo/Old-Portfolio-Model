@@ -31,17 +31,14 @@ const ProjectDetails = () => {
   return (
     <>
       <main className="container portfolio">
-        {/* Display the page header with project title and description */}
-        <PageHeader title={project.title} description={project.description} />
+        <PageHeader title={project.title} />
         <div className="projectDetails">
           <div className="row">
             <div className="col-12 col-xl-4 projectImage">
-              {/* Display the project image */}
-              <Image src={project.image2} alt={project.name} opacity="0.5" />
+              <Image src={project.image2} alt={project.name} opacity="0.8" />
             </div>
             <div className="col-12 col-xl-8 projectBodyContainer">
               <div className="tech">
-                {/* Display project technologies with animation */}
                 {project.technologies.map((technology, i) => (
                   <motion.span
                     key={i}
@@ -56,7 +53,6 @@ const ProjectDetails = () => {
               </div>
 
               <div className="projectBody">
-                {/* Display project body paragraphs with animation */}
                 {project.body.split("\n").map((paragraph, i) => (
                   <motion.p
                     className="paragraph"

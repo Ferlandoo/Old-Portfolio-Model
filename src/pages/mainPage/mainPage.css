@@ -84,7 +84,8 @@
 .projectBody {
   line-height: 2;
   text-align: left;
-  color: var(--secondary-text-color);
+  color: #fff;
+  opacity: 0.9;
 }
 
 .tech {

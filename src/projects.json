@@ -1,54 +1,35 @@
 [
   {
-    "title": "Routes",
-    "description": "Plan Safe Routes",
-    "image": "/projectImages/bike.png",
-    "image2": "/projectImages/cyclingfamily.jpeg",
-    "image3": "/projectImages/routes3.png",
-    "body": "During my immersive coding bootcamp experience, I collaborated with a team to develop a sophisticated project — a MVP version with a distinct emphasis on route optimisation. Demonstrating a comprehensive understanding of the project's intricacies, I took charge of the entire route management aspect.\nThe purpose of this initiative was to enhance the safety of young cyclists. Leveraged Leaflet.js and TomTom's Routing/Reverse Geolocation APIs.\nIn practical terms, this translates to the creation of a interactive map. Users can intricately plan their routes, considering factors such as real-time traffic updates, designated bike lanes, and terrain gradients. The result is a visually appealing mapping experience. An adventure plotted with utmost consideration for safety and enjoyment.",
-    "technologies": ["Leaflet", "jQuery", "Bootstrap", "HTML", "CSS"],
-    "github": "#",
+    "title": "AirBnB Clone",
+    "description": "AirBNB Clone",
+    "image": "/projectImages/airbnb.png",
+    "image2": "/projectImages/airbnb_2.jpeg",
+    "body": "This project is the first step towards building our first full web application: an AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, SQL, API, front-end integration…\nThe console is a command interpreter designed to manage the AirBnB objects of our project:\n• Create a new object (ex: a new User or a new Place)\n• Retrieve an object from a file, a database, etc.\n• Do operations on objects (count, compute stats, etc.)\n• Update attributes of an object\n• Destroy an object",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Python"
+    ],
+    "github": "https://github.com/Ferlandoo/holbertonschool-AirBnB_clone",
     "deployed": "#",
     "bgcolor": "var(--hl2-color)",
     "id": "1"
   },
   {
-    "title": "Weather",
-    "description": "Weather Forecast",
-    "image": "/projectImages/weather.png",
+    "title": "To Do",
+    "description": "To Do",
+    "image": "/projectImages/todo.png",
     "image2": "/projectImages/storm.jpeg",
-    "image3": "/projectImages/weather3.png",
-    "technologies": ["JavaScript", "jQuery", "HTML", "CSS"],
+    "technologies": [
+      "JavaScript",
+      "jQuery",
+      "HTML",
+      "CSS"
+    ],
     "body": "This mobile web application leverages the OpenWeatherMap API to deliver real-time weather data for any location. Users can view current conditions including temperature, humidity, and wind speed, as well as a 5-day forecast.\nThe interface automatically adapts between light and dark modes based on the time of day at the given location. Recent searches are stored to enable quick access to frequently checked cities. Geolocation functionality determines the user's position for quick access to local weather.\nBy combining a modern, responsive design with robust weather data pulled from OpenWeatherMap's API, this application aims to provide an intuitive experience for staying up-to-date on the latest weather conditions. The project demonstrates proficiency in integrating third-party APIs, building adaptive interfaces, and crafting performant mobile web applications.",
     "github": "#",
     "deployed": "#",
     "bgcolor": "var(--hl-color)",
     "id": "2"
-  },
-  {
-    "title": "Generator",
-    "description": "Effortless web pages",
-    "image": "/projectImages/team.png",
-    "image2": "/projectImages/teamcelebrating.jpeg",
-    "image3": "/projectImages/team3.png",
-    "technologies": ["JavaScript", "Node", "Bootstrap", "Testing"],
-    "body": "This Node.js command-line application generates an interactive team dashboard from user-provided data. It accepts information about team members and outputs a dynamic HTML page profiling the entire group.\nRather than relying on static spreadsheets, this tool creates a customizable web page that brings employee data to life. The dashboard auto-populates with profiles for each team member, containing details provided via the command-line input.\nBuilt on Node.js, this project demonstrates skills in crafting web applications using JavaScript-based server-side frameworks. It handles input data dynamically to render an animated, engaging profile of the entire team. The end result is an shareable HTML page that serves as a creative alternative to traditional spreadsheet-based team overviews.",
-    "github": "#",
-    "deployed": "#",
-    "bgcolor": "#6c4bf4",
-    "id": "3"
-  },
-  {
-    "title": "Quiz",
-    "description": "Test your knowledge",
-    "image": "/projectImages/quiz.png",
-    "image2": "/projectImages/javascript.jpeg",
-    "image3": "/projectImages/quiz3.png",
-    "technologies": ["JavaScript", "HTML", "CSS"],
-    "body": "This application tests JavaScript knowledge through a timed, question-based quiz. Users are presented with 5 random questions and have 50 seconds to complete the quiz. The remaining time at completion determines the final score, rewarding both accuracy and speed.\nTo add challenge, the timer is reduced by 10 seconds for each incorrect answer. This creates urgency to answer carefully within the time limit. Questions are drawn randomly from a pool to ensure variety upon each attempt.\nBuilt using JavaScript, this project provides hands-on experience creating a responsive quiz application. Key learning outcomes include: \n➤ Generating random questions from a pool of options\n➤ Implementing a countdown timer with penalty deductions\n➤ Calculating scores based on time remaining\n➤ Providing interactive quiz feedback to users\nOverall, this application allows users to test their JavaScript skills through an engaging, time-pressured quiz interface. Both code knowledge and quick thinking are required to achieve a top score.",
-    "github": "#",
-    "deployed": "#",
-    "bgcolor": "#f85781",
-    "id": "4"
   }
 ]

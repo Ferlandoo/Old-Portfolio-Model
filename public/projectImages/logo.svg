@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64.65 56.27">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#linear-gradient);
-        stroke-width: 0px;
-      }
-    </style>
-    <linearGradient id="linear-gradient" x1="0" y1="737.38" x2="64.65" y2="737.38" gradientTransform="translate(0 -709.24)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d13e69"/>
-      <stop offset="1" stop-color="#3d0c6f"/>
-    </linearGradient>
-  </defs>
-  <path class="cls-1" d="m46.87,30.94h-15.7l7.84,13.62-6.68,11.56-14.55-25.18-5.94-10.28h40.97s-5.94,10.28-5.94,10.28ZM64.65.16H0l5.93,10.26,52.78.02L64.65.16Z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="a" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<path class="st0" d="M40,80L40,80C17.9,80,0,62.1,0,40v0C0,17.9,17.9,0,40,0h0c22.1,0,40,17.9,40,40v0C80,62.1,62.1,80,40,80z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="18.634" y1="33.4543" x2="64.0429" y2="58.3796" gradientTransform="matrix(1 0 0 -1 0 82)">
+	<stop  offset="4.808037e-03" style="stop-color:#030C23"/>
+	<stop  offset="1" style="stop-color:#0C1B43"/>
+</linearGradient>
+<path class="st1" d="M51.7,46.2H39.1l6.3,10.9L40,66.4L28.3,46.2l-4.8-8.3h32.9L51.7,46.2z M65.9,21.5H14.1l4.8,8.2h42.4L65.9,21.5z
+	"/>
 </svg>
