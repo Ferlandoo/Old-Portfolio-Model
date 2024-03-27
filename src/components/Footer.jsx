@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <SocialIcons />
-      <p class="footer-text">Copyright &copy; 2023 - {currentYear} by <a class="footer-link" href="https://ferlando.me/">Ferlando.me</a></p>
+      <p class="footer-text">Copyright &copy; {currentYear} by <a class="footer-link" href="https://github.com/Ferlandoo">Ferlando.me</a></p>
     </footer>
   );
 };

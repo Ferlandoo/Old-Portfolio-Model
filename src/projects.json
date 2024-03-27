@@ -19,14 +19,13 @@
     "title": "To Do",
     "description": "To Do",
     "image": "/projectImages/todo.png",
-    "image2": "/projectImages/storm.jpeg",
+    "image2": "/projectImages/todo_2.jpg",
     "technologies": [
-      "JavaScript",
-      "jQuery",
       "HTML",
-      "CSS"
+      "CSS",
+      "Python"
     ],
-    "body": "This mobile web application leverages the OpenWeatherMap API to deliver real-time weather data for any location. Users can view current conditions including temperature, humidity, and wind speed, as well as a 5-day forecast.\nThe interface automatically adapts between light and dark modes based on the time of day at the given location. Recent searches are stored to enable quick access to frequently checked cities. Geolocation functionality determines the user's position for quick access to local weather.\nBy combining a modern, responsive design with robust weather data pulled from OpenWeatherMap's API, this application aims to provide an intuitive experience for staying up-to-date on the latest weather conditions. The project demonstrates proficiency in integrating third-party APIs, building adaptive interfaces, and crafting performant mobile web applications.",
+    "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nComing Soon.",
     "github": "#",
     "deployed": "#",
     "bgcolor": "var(--hl-color)",
