@@ -65,8 +65,6 @@ const ProjectDetails = () => {
                   </motion.p>
                 ))}
               </div>
-
-              {/* Display buttons with animation */}
               <motion.div
                 style={{ display: "flex", gap: "10px" }}
                 initial={{ opacity: 0, y: 20 }}

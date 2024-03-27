@@ -8,7 +8,6 @@ import PageNotFound from "./pages/404/PageNotFound";
 function App() {
   const location = useLocation();
 
-  // State to manage loader visibility
   const [showLoader, setShowLoader] = useState(true);
 
   const [originalTitle, setOriginalTitle] = useState();
