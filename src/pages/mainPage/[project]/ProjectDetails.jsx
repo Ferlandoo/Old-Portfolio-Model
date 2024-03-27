@@ -69,7 +69,7 @@ const ProjectDetails = () => {
                 style={{ display: "flex", gap: "10px" }}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: project.body.split("\n").length * 0.3 }}
+                transition={{ duration: 0.5, delay: project.body.split("\n").length * 0.1 }}
               >
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
                   <Button name="View Code" />
