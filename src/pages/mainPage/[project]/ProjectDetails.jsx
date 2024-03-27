@@ -21,7 +21,7 @@ const ProjectDetails = () => {
   const { projectTitle } = useParams();
 
   // Find the project in the data using the title
-  const project = projects.find((project) => project.title.toLowerCase() === projectTitle);
+  const project = projects.find((project) => project.title.toLowerCase().replace(/ /g, '_') === projectTitle);
 
   // If the project is not found, display the PageNotFound component
   if (!project) {
