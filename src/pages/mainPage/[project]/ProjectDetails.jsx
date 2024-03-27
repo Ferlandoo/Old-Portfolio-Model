@@ -59,7 +59,7 @@ const ProjectDetails = () => {
                     key={i}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: i * 0.3, ease: "easeInOut" }}
+                    transition={{ duration: 0.5, delay: i * 0.1, ease: "easeInOut" }}
                   >
                     {paragraph}
                   </motion.p>
@@ -71,10 +71,10 @@ const ProjectDetails = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: project.body.split("\n").length * 0.3 }}
               >
-                <a href={project.github}>
+                <a href={project.github} target="_blank" rel="noopener noreferrer">
                   <Button name="View Code" />
                 </a>
-                <a href={project.deployed}>
+                <a href={project.deployed} target="_blank" rel="noopener noreferrer">
                   <Button name="View Site" />
                 </a>
                 <Link to="/">
